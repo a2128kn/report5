@@ -1,3 +1,4 @@
+#!/bin/bash
 
 if [ $# -ne 2 ]
 then
@@ -19,6 +20,6 @@ div_b=$remainder
 }
 
 test $1 $2
-echo; echo "$1 と $2 の最大公約数は $div_a"; echo
-
+# echo "$1 と $2 の最大公約数は $div_a"
+echo $div_a
 exit 0
